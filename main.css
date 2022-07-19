@@ -54,9 +54,9 @@ width: 73%;
 line-height: 1.5;
 }
 .description button{
-border:1px solid #F97300;
-background:#cc3333;
-color:#fff;
+border:4px solid #0033cc;
+color:#0033cc;
+font-size: 19px;
 }
 
 .about{
@@ -72,24 +72,23 @@ padding:10px;
 background:#eeeeee;
 border:1px solid #cccccc
 }
-.about span{
-display: block;
-color: #888;
-position: absolute;
-left: 115px;
-}
 .about .desc{
 padding: 1em;
 border-left:4px solid #10828C;
 }
-.about .desc h2{
-font-weight: bold
+.about .desc h1{
+font: bold;
+color: #330099;
+}
+.about .desc h5{
+font-style:italic;
+font-size: 22px;
 color: #330099;
 }
 .about .desc p{
 line-height:2;
 color:#0e273c;
-font-size: 18px;
+font-size: 20px;
 }
 
 
@@ -140,18 +139,18 @@ padding: 1em;
 background-color: #f9730029;
 margin: 4em 0;
 position: relative;
-padding: 2em;
+padding: 4em;
 }
 .zasl h1{
 color:#0033cc;
 margin: 0.5em;
 }
 .zno img{
-height: 70%;
-width: 70%;
+height: 100%;
+width: 100%;
 }
 .zno .carousel-item{
-padding: 1em;
+padding: 5em;
 }
 
 .contact-form{
