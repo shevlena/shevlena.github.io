@@ -139,18 +139,15 @@ padding: 1em;
 background-color: #f9730029;
 margin: 4em 0;
 position: relative;
-padding: 4em;
+padding: 2em;
 }
 .zasl h1{
 color:#0033cc;
 margin: 0.5em;
 }
-.zno img{
-height: 100%;
-width: 100%;
-}
-.zno .carousel-item{
-padding: 5em;
+.zasl .container  {
+    height: 60%;
+    width: 60%;
 }
 
 .contact-form{
