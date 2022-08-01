@@ -137,24 +137,24 @@ padding: 1em;
 
 .zasl{
 background-color: #f9730029;
-margin: 4em 0;
+margin: 2em 0;
 position: relative;
-padding: 2em;
+padding: 1em 0;
 }
 .zasl h1{
 color:#0033cc;
 margin: 0.5em;
 }
 .zasl .container  {
-    height: 60%;
-    width: 60%;
+    height: 80%;
+    width: 80%;
 }
 
 .contact-form{
 background-color: #688db629;
 margin: 6em 0;
 position: relative;
-padding: 5em;
+padding: 2em;
 }
 .contact-form h1{
 padding:2em 1px;
@@ -174,44 +174,55 @@ font-size: 16px; }
 
 .random-form{
 background-color: #f9730029;
-margin: 4em 0;
+margin: 2em 0;
 position: relative;
-padding: 3em;
+padding: 2em;
 }
-.random-form h1{
-    padding:2em 1px;
-    color: #0033cc;
-    }
+.random-form h2{
+text-align: center;
+color: #cc1400;
+font-weight: bold;
+}
 
 .random-form h6{
 color: #cc3333;
 font-weight: bold;
 font-size: 20px; 
-margin-left: 100px; 
+max-width: 600px;
+text-align: center;
 }
 .random-form .right{
 max-width: 600px;
+background: #bfdbee;
+padding:2em 1px;
+
+}
+.form-group{
+text-align: center;
+margin: 1em 1em;
 }
 .max, .min{
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;  
+text-align: center;
+font-weight: bold;
+font-size: 20px;
+width: 255px; 
 }
 .generate{
-    background: #aac3cc;
-    width: 255px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;    
-}
-.result{
-background: rgb(200, 173, 213);
+background: #2274cbbc;
 width: 255px;
-height: 40px;
 text-align: center;
-color: #ed3f3f;
+font-weight: bold;
+font-size: 20px;    
+}
+.random-form .right .result{
+background: rgba(235, 154, 198, 0.721);
+width: 255px;
+height: 45px;
+text-align: center;
+color: #0b0b0b;
 font-weight: bold;
 font-size: 30px;
+margin: 0 auto;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Raleway');
